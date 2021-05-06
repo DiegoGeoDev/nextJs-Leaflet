@@ -137,10 +137,26 @@ Caso o vscode não tenha os plugins de preetier e eslint é necessário criar a 
 
 6 - Configurar Git Hooks com Husky
 
-https://typicode.github.io/husky/#/
-
 Precisa criar um repositótio no github para o projeto
+https://typicode.github.io/husky/#/
+Instalar o husky e criar o pré commit
+npx husky-init && yarn
 
-yarn add --dev husky
+Instalar o lint staged
+https://github.com/okonet/lint-staged
+
+Configurar o lint staged no package.json
+```json
+  "lint-staged": {
+    "src/**/*":[
+      "yarn lint --fix"
+    ]
+  }
+```
+
+
+
+
+
 
 

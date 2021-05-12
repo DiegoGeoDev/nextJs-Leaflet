@@ -1,0 +1,17 @@
+yarn run v1.17.3
+$ jest --maxWorkers=50%
+-----------------|---------|----------|---------|---------|-------------------
+File             | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------|---------|----------|---------|---------|-------------------
+All files        |   33.33 |      100 |    12.5 |   33.33 |                   
+ components/Main |     100 |      100 |     100 |     100 |                   
+  index.tsx      |     100 |      100 |     100 |     100 |                   
+  styles.ts      |     100 |      100 |     100 |     100 |                   
+ pages           |       0 |      100 |       0 |       0 |                   
+  _app.tsx       |       0 |      100 |       0 |       0 | 7                 
+  _document.tsx  |       0 |      100 |       0 |       0 | 12-38             
+  index.tsx      |       0 |      100 |       0 |       0 | 4                 
+ styles          |       0 |      100 |     100 |       0 |                   
+  global.ts      |       0 |      100 |     100 |       0 | 3                 
+-----------------|---------|----------|---------|---------|-------------------
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
